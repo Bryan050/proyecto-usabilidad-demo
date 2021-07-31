@@ -6,6 +6,9 @@
     height: 300px;
     object-fit: cover;
 }
+.uk-text-white, .uk-text-white-hover:hover{
+    color: #fff;
+}
 #footer{
     border-top: 5px solid;
 }
