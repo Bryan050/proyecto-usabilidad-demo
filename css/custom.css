@@ -1,6 +1,23 @@
 .pointer{
     cursor: pointer;
 }
+#colorheader{
+    color: #fff;
+}
+#navbar{
+    background-color: #1d1a49;
+}
+
+.colorbar {
+    background-image: url(https://www.cotopaxi.gob.ec/templates/cotopaxi/images/barra.jpg);
+    height: 7px;
+    width: 100%;
+    z-index: 1500;
+}
+#logo{
+    width: 135px;
+    height: 135px;
+}
 .estate-slider-img{
     width: 100%;
     height: 300px;
@@ -10,5 +27,27 @@
     color: #fff;
 }
 #footer{
-    border-top: 5px solid;
+    background-color: hsl(244, 47%, 19%);
+}
+.colorfooter{
+    color: #fff;
+}
+.buttoncolor{
+    background-color: #672c85;
+    border-radius: 9px 9px 9px 9px;
+    color: #fff;
+}
+.buttoncolor:hover{
+    background-color: #60247e;
+    border-radius: 9px 9px 9px 9px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#colorheader:hover{
+    color:rgb(224, 222, 222);
+}
+#etiqueta{
+    background-color: aqua;
 }
