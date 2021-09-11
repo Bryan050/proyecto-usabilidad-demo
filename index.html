@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Información de parroquias</title>
+</head>
+
+<body>
+    <header>
+        <nav class="contenedor position-relative verBorde">
+            <div class="position-relative verBorde titulo d-flex justify-content-center align-items-center">
+                <a href="#" class="links">
+                    <h3 class="px-3">//////////////////////</h3>
+                </a>
+            </div>
+            <div class="position-absolute posicion">
+                <img class="imgs" id="logo" src="img/img.jpg" alt="logo" />
+             </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container-fluid mt-2">
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="container-fluid">
+                        <div class="d-flex flex-row-reverse">
+                            <div class="pt-2 pr-2">
+                                <div class="input-group">
+                                    <select class="custom-select" id="opcionesBuscar">
+                                        <option selected>/////////</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                    <input class="form-control" type="text" placeholder="//////////////////"
+                                        aria-label="Search">
+                                    <div class="input-group-append">
+                                        <button type="button" class="btn" id="btnBuscar">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pt-2 px-4">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text" for="inputGroupSelect01">/////////////</label>
+                                    </div>
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                        <option selected>//////////////////////</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--RESULTADO DE BÚSQUEDA-->
+                <div class="col-12 verBorde my-3 py-2">
+                    <span class="align-middle">///////////////////////</span>
+                </div>
+
+                <!--FILTRAR RESULTADOS-->
+                <div class="col-sm-6 col-md-3 p-0 bordeFiltro">
+                    <div class="d-flex flex-column bd-highlight px-4">
+                        <div class="bd-highlight p-2 mb-4 tituloFiltro"><b>//////////////</b></div>
+                        <div class="bd-highlight">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    ///////////////////////
+                                </label>
+                            </div>
+                        </div>
+                        <div class="bd-highlight">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    ///////////////////////
+                                </label>
+                            </div>
+                        </div>
+                        <div class="bd-highlight">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    ///////////////////////
+                                </label>
+                            </div>
+                        </div>
+                        <div class="bd-highlight">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    ///////////////////////
+                                </label>
+                            </div>
+                        </div>
+                        <div class="bd-highlight">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    ///////////////////////
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="bd-highlight">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    ///////////////////////
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--TARJETAS CON INFORMACIÓN-->
+                <div class="col-sm-6 col-md-9 p-0" id="ctnFiltrar">
+                    <div class="container">
+                        <div class="card mb-2 caja">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                </div>
+                                <div class="col-8">
+                                    <p>____________________________</p>
+                                    <p>___________________________________________________________</p>
+                                    <p>___________________________________________________________</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2 caja">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                </div>
+                                <div class="col-8">
+                                    <p>____________________________</p>
+                                    <p>___________________________________________________________</p>
+                                    <p>___________________________________________________________</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2 caja">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                </div>
+                                <div class="col-8">
+                                    <p>____________________________</p>
+                                    <p>___________________________________________________________</p>
+                                    <p>___________________________________________________________</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2 caja">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                </div>
+                                <div class="col-8">
+                                    <p>____________________________</p>
+                                    <p>___________________________________________________________</p>
+                                    <p>___________________________________________________________</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2 caja">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                </div>
+                                <div class="col-8">
+                                    <p>____________________________</p>
+                                    <p>___________________________________________________________</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2 caja">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                </div>
+                                <div class="col-8">
+                                    <p>____________________________</p>
+                                    <p>___________________________________________________________</p>
+                                    <p>___________________________________________________________</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2 caja">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                </div>
+                                <div class="col-8">
+                                    <p>____________________________</p>
+                                    <p>___________________________________________________________</p>
+                                    <p>___________________________________________________________</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2 caja">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                </div>
+                                <div class="col-8">
+                                    <p>____________________________</p>
+                                    <p>___________________________________________________________</p>
+                                    <p>___________________________________________________________</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2 caja">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                </div>
+                                <div class="col-8">
+                                    <p>____________________________</p>
+                                    <p>___________________________________________________________</p>
+                                    <p>___________________________________________________________</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2 caja ">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                </div>
+                                <div class="col-8">
+                                    <p>____________________________</p>
+                                    <p>___________________________________________________________</p>
+                                    <p>___________________________________________________________</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container">
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <div class="container mb-5">
+                                    <nav aria-label="...">
+                                        <ul class="pagination justify-content-center">
+                                            <li class="page-item contornos">
+                                                <a class="page-link texto" href="#" tabindex="-1"><svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-left"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                                                    </svg> ////////</a>
+                                            </li>
+                                            <li class="page-item contornos"><a class="page-link texto" href="#">1</a>
+                                            </li>
+                                            <li class="page-item contornos">
+                                                <a class="page-link texto" href="#">2 <span class="sr-only"></span></a>
+                                            </li>
+                                            <li class="page-item contornos"><a class="page-link texto" href="#">3</a>
+                                            </li>
+                                            <li class="page-item contornos disabled"><a class="page-link texto"
+                                                    href="#">...</a></li>
+                                            <li class="page-item contornos"><a class="page-link texto" href="#">-</a>
+                                            </li>
+                                            <li class="page-item contornos">
+                                                <a class="page-link texto" href="#">///////// <svg
+                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg></a>
+
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center mb-1 mt-2">
+                                ///////////////////////
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/main.js"></script>
+    </footer>
+</body>
+
+</html>

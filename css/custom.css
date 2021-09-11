@@ -1,53 +1,129 @@
-.pointer{
+.contenedor-slider{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-indicators li {
+    border-color: #777;
+}
+
+.carousel-indicators .active {
+    background-color: #777;
+}
+
+#btnBuscar{
+    border: solid #ced4da 1px;
+}
+
+#ctnFiltrar{
+    padding: 100px;
+}
+
+#ctnNumBusqueda{
+    padding: 10px;
+}
+
+#ctnResultado{
+    padding: 10px;
+}
+
+.verBorde{
+    border: solid grey 1px;
+}
+
+#buscador{
+    padding-right: 10% !important;
+}
+
+#opcionSeleccionar{
+    padding-left: 20% !important;
+}
+
+#opcionesBuscar{
+    background-color: #e9ecef !important;
+    border-color: #ced4da;
+}
+
+.caja{
+    border-color: grey;
+}
+
+.caja:hover{
     cursor: pointer;
 }
-#colorheader{
-    color: #fff;
+
+#img{
+    width: 300px;
+    height: 150px;
+    border: solid grey 1px;
 }
-#navbar{
-    background-color: #1d1a49;
+.imgs {
+  border-radius: 4px;
+  padding: 20px;
+  width: 130px;
+}
+.imgs:hover{
+    cursor: pointer;
 }
 
-.colorbar {
-    background-image: url(https://www.cotopaxi.gob.ec/templates/cotopaxi/images/barra.jpg);
-    height: 7px;
-    width: 100%;
-    z-index: 1500;
+.bg{
+  background-color: dimgray;
 }
-#logo{
-    width: 135px;
-    height: 135px;
+.contenedor{
+  width: 100%;
+  height: 100px;
 }
-.estate-slider-img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+.posicion{
+  top: 0px;
 }
-.uk-text-white, .uk-text-white-hover:hover{
-    color: #fff;
-}
-#footer{
-    background-color: hsl(244, 47%, 19%);
-}
-.colorfooter{
-    color: #fff;
-}
-.buttoncolor{
-    background-color: #672c85;
-    border-radius: 9px 9px 9px 9px;
-    color: #fff;
-}
-.buttoncolor:hover{
-    background-color: #60247e;
-    border-radius: 9px 9px 9px 9px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
+.titulo{
+  height: 100px;
 }
 
-#colorheader:hover{
-    color:rgb(224, 222, 222);
+.tituloFiltro{
+  border-bottom: solid gray 1px;
 }
-#etiqueta{
-    background-color: aqua;
+.bordeFiltro{
+  border-right: solid gray 1px;
+  border-top: solid gray 1px;
+}
+
+
+.carousel-control-prev-icon {
+    padding: 10px;
+    background-image: url("../img/chevron-left.svg");
+}
+
+.carousel-control-next-icon {
+    padding: 10px;
+    background-image: url("../img/chevron-right.svg");
+}
+
+.contenedor-slider .carousel .carousel-indicators button {  
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 50%;
+    width: 3px;
+    padding: 4px;
+}
+.contenedor-slider .carousel .carousel-indicators button.active { 
+    background-color: grey; 
+}
+.contornos{
+    border-color: grey;
+}
+
+.texto{
+    color: black;
+}
+
+.links{
+    text-decoration:none;
+    color: black;
+}
+
+.links:hover{
+    text-decoration:none;
+    color: gray;
 }
