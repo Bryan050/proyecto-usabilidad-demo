@@ -32,6 +32,7 @@
                     <div class="container-fluid">
                         <div class="d-flex flex-row-reverse">
                             <div class="pt-2 pr-2">
+                                <!--INPUT PARA BÚQUEDA DE INFORMACIÓN-->
                                 <div class="input-group">
                                     <select class="custom-select" id="opcionesBuscar">
                                         <option selected>/////////</option>
@@ -40,7 +41,8 @@
                                         <option value="3">Three</option>
                                     </select>
                                     <input class="form-control" type="text" placeholder="//////////////////"
-                                        aria-label="Search">
+                                    id="txtBuscar" aria-label="Search">
+                                    
                                     <div class="input-group-append">
                                         <button type="button" class="btn" id="btnBuscar">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -50,8 +52,13 @@
                                             </svg>
                                         </button>
                                     </div>
+                                    <div class="container li-result">
+                                        <ul class="list-group" id="result"></ul>
+                                    </div>
                                 </div>
                             </div>
+
+                            <!--SELECTOR DE ORDENAR POR-->
                             <div class="pt-2 px-4">
                                 <div class="input-group">
                                     <div class="input-group-prepend">
