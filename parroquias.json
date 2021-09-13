@@ -1,0 +1,69 @@
+{   "lugar":"Parque Nacional Cotopaxi",
+    "canton":"Latacunga",
+    "paroquia":"Latacunga",
+    "caracteristica": "Es un área protegida impresionante, localizada a 30 km de Latacunga. Es el atractivo más importante de Ecuador continental. Aquí se halla el volcán Cotopaxi",
+    "Actividades": "Cabalgata | Fotografía | Caminata | Camping | Ciclismo | Observación de fauna | Aviturismo | Ecoturismo | Escalada"
+}
+{
+    "lugar":"Volcán Cotopaxi",
+    "canton":"Latacunga",
+    "paroquia":"Latacunga",
+    "caracteristica":"Para los amantes del andinismo, el volcán Cotopaxi es además de una experiencia familiar llena de color, una aventura extrema para probar destreza y habilidad",
+    "actividades":" Cabalgata | Fotografía | Caminata | Camping | Ciclismo | Observación de fauna | Aviturismo | Ecoturismo | Escalada"
+}
+{
+    "lugar ": "Catedral de Latacunga",
+    "canton": "Latacunga",
+    "paroquia":"Latacunga",
+    "caracteristica":"La construcción es de estilo románico, en su interior existe un altar trabajado en piedra pómez, posee obras artísticas e imágenes coloniales.",
+    "Actividades": "Fotografía"
+}
+{
+    
+    "lugar":"Centro Histórico de Latacunga",
+    "canton":"Latacunga",
+    "caracteristica":"El centro histórico de Latacunga es una reunión de elementos arquitectónicos coloniales de gran valor histórico levantada a partir de la conquista española",
+    "Actividades":"Caminata | Fotografía"
+}
+{
+    "lugar":"Cerro Putzalahua",
+    "canton":"Latacunga",
+    "paroquia":"Latacunga",
+    "caracteristica":"Es un mirador natural de la ciudad de Latacunga, es considerado un lugar turístico, donde los jóvenes y familias pueden descender con bicicletas"
+    "Actividades":"Aviturismo | Caminata | Fotografía | Parapente"
+}
+{
+    "lugar":"Iglesia de El Salto",
+    "canton":"Latacunga",
+    "paroquia":"Latacunga",
+    "caracteristica":"La Iglesia del Salto tiene su origen en el cráter volcánico del Asiento de Latacunga.",
+    "Actividades":"Fotografía"
+}
+{
+    "lugar":"San Juan de Pastocalle",
+    "canton":"Latacunga",
+    "paroquia":"San Juan de Pastocalle",
+    "caracteristica":"La parroquia San Juan de Pastocalle, se encuentra ubicada al Noroccidente de la Provincia de Cotopaxii, atravesada por el callejón interandino y en parte por la panamericana central de Latacunga - Quito,a una altitud de 3.197 m.s.n.m,hasta las nieves perpetuas de la Reserva Ecológica del Iliniza sur (5265) m.s.n.m. ,  con un clima que oscila entre los 12 y 25°. Tiene una superficie total de 135 Km2., se encuentra a una distancia de 25 Km desde Latacunga hasta el centro parroquial, el tiempo requerido entre las dos poblaciones es de 30 min. La vialidad para el acceso al centro poblado es asfaltado y el acceso a los distintos barrios y comunidades son caminos de tercer orden. Jurídicamente la parroquia pertenece al cantón Latacunga.",
+    "Actividad":"Aviturismo | Caminata | Fotografía"
+}
+{
+    "lugar":"La Mana",
+    "canton":"La Mana",
+    "paroquia":"La Mana",
+    "caracteristica":"Un punto privilegiado para entender la diversidad climática del país, sierra y costa se unen enseñando paisajes únicos e inolvidables.",
+    "Actividades":"Fotografía"
+}
+{
+    "lugar":"Mulliquindil Santa Ana",
+    "canton":"Salcedo",
+    "parroquia":"Santa Ana",
+    "caracteristica":"Mulliquindil o mas conocida coloquialmente como Santa Ana, en honor a su Virgen, es una de las 7 hermosas parroquias que conforman el cantón Salcedo ( Tierra de los helados y el pinol), hoy en día muy reconocida por propios y extraños como un lugar de exquisita tradición gastronómica, especificamente por los deliciosos pescados fritos acompañados de yuca y/o papas fritas y una rica ensalada que esconde un magico sabor, y como no tambien el ají elaborado con maní.",
+    "Actividad":"Turismo | Gastronómico | Campo | naturaleza"
+}
+{
+    "lugar":"Salcedo",
+    "canton":"Salcedo",
+    "parroquia":"Salcedo",
+    "caracteristica":"posee muchas zonas naturales, sitios históricos, fiestas, artesanías, infraestructura hotelera, de recreación y monumentales haciendas que esconden en sus muros los secretos del paso del tiempo. Entre los lugares más visitados están las lagunas de Los Anteojos y la de Yambo, el Balneario de Nagsiche, las aguas termales de Aluchan, y varias hosterías.",
+    "Actividad":"Turismo | Gastronómico | Campo | naturaleza"
+}

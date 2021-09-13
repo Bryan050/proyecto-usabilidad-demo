@@ -11,38 +11,37 @@
 
 <body>
     <header>
-        <nav class="contenedor position-relative verBorde">
-            <div class="position-relative verBorde titulo d-flex justify-content-center align-items-center">
+        <nav class="contenedor position-relative nav-color">
+            <div class="position-relative titulo d-flex justify-content-center align-items-center">
                 <a href="#" class="links">
-                    <h3 class="px-3">//////////////////////</h3>
+                    <h4 class="px-3">Información de Parroquias</h4>
                 </a>
             </div>
             <div class="position-absolute posicion">
-                <img class="imgs" id="logo" src="img/img.jpg" alt="logo" />
-             </div>
+                <img class="logo" id="logo" src="img/logo.jpg" alt="logo" />
+            </div>
         </nav>
     </header>
 
     <main>
 
-        <div class="container-fluid mt-2">
+        <div class="container-fluid">
             <div class="row">
 
                 <div class="col-12">
                     <div class="container-fluid">
                         <div class="d-flex flex-row-reverse">
-                            <div class="pt-2 pr-2">
+                            <div class="py-3 pr-2">
                                 <!--INPUT PARA BÚQUEDA DE INFORMACIÓN-->
                                 <div class="input-group">
                                     <select class="custom-select" id="opcionesBuscar">
-                                        <option selected>/////////</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
+                                        <option selected>Todo</option>
+                                        <option value="1">Nombre de representante</option>
+                                        <option value="2">Nombre de parroquia</option>
                                     </select>
-                                    <input class="form-control" type="text" placeholder="//////////////////"
-                                    id="txtBuscar" aria-label="Search">
-                                    
+                                    <input class="form-control" type="text" placeholder="Buscar" id="txtBuscar"
+                                        aria-label="Search">
+
                                     <div class="input-group-append">
                                         <button type="button" class="btn" id="btnBuscar">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -59,16 +58,17 @@
                             </div>
 
                             <!--SELECTOR DE ORDENAR POR-->
-                            <div class="pt-2 px-4">
+                            <div class="py-3 px-4">
                                 <div class="input-group">
                                     <div class="input-group-prepend">
-                                        <label class="input-group-text" for="inputGroupSelect01">/////////////</label>
+                                        <label class="input-group-text" for="txtOrdenarPor">Ordenar por: </label>
                                     </div>
-                                    <select class="custom-select" id="inputGroupSelect01">
-                                        <option selected>//////////////////////</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
+                                    <select class="custom-select" id="txtOrdenarPor">
+                                        <option selected></option>
+                                        <option value="1">Nombre de parroquia: A - Z</option>
+                                        <option value="2">Nombre de parroquia: Z - A</option>
+                                        <option value="2">Nombre de representante: A - Z</option>
+                                        <option value="4">Nombre de representante: Z - A</option>
                                     </select>
                                 </div>
                             </div>
@@ -78,19 +78,18 @@
                 </div>
 
                 <!--RESULTADO DE BÚSQUEDA-->
-                <div class="col-12 verBorde my-3 py-2">
-                    <span class="align-middle">///////////////////////</span>
+                <div class="col-12 py-2 text-rigth d-flex justify-content-end aviso-busqueda">
+                    <span class="align-middle">20 resulados para <b>"Juan Ramiro"</b></span>
                 </div>
-
                 <!--FILTRAR RESULTADOS-->
                 <div class="col-sm-6 col-md-3 p-0 bordeFiltro">
                     <div class="d-flex flex-column bd-highlight px-4">
-                        <div class="bd-highlight p-2 mb-4 tituloFiltro"><b>//////////////</b></div>
+                        <div class="bd-highlight p-2 mb-2 tituloFiltro"><b>Filtrar por cantón</b></div>
                         <div class="bd-highlight">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                 <label class="form-check-label" for="defaultCheck1">
-                                    ///////////////////////
+                                    Pujilí
                                 </label>
                             </div>
                         </div>
@@ -98,7 +97,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                 <label class="form-check-label" for="defaultCheck1">
-                                    ///////////////////////
+                                    Salcedo
                                 </label>
                             </div>
                         </div>
@@ -106,7 +105,25 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                 <label class="form-check-label" for="defaultCheck1">
-                                    ///////////////////////
+                                    Latacunga
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    La Maná
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Pangua
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Pujilí
                                 </label>
                             </div>
                         </div>
@@ -114,7 +131,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                 <label class="form-check-label" for="defaultCheck1">
-                                    ///////////////////////
+                                    Salcedo
                                 </label>
                             </div>
                         </div>
@@ -122,16 +139,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                 <label class="form-check-label" for="defaultCheck1">
-                                    ///////////////////////
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="bd-highlight">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                <label class="form-check-label" for="defaultCheck1">
-                                    ///////////////////////
+                                    Sigchos
                                 </label>
                             </div>
                         </div>
@@ -144,120 +152,170 @@
                         <div class="card mb-2 caja">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                    <img src="img/slider-1.jpg" alt="img" class="img-fluid" />
                                 </div>
                                 <div class="col-8">
-                                    <p>____________________________</p>
-                                    <p>___________________________________________________________</p>
-                                    <p>___________________________________________________________</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sint dolor
+                                        corrupti numquam quis eos praesentium repudiandae sunt illum eligendi optio
+                                        nobis officia, autem natus nisi! Inventore quos rem quas neque, sunt sint.
+                                        Aliquam, ipsum similique. Incidunt, error. Quidem eos officiis optio, molestiae
+                                        fugiat reiciendis suscipit eius accusamus commodi praesentium deleniti sint,
+                                        dolore obcaecati possimus dicta! Nisi, cumque atque? Facere sapiente, tenetur
+                                        inventore vitae quam reprehenderit quisquam distinctio consequuntur ipsam, quis
+                                        molestias dolor corporis voluptates quibusdam dolores voluptate et, </p>
                                 </div>
                             </div>
                         </div>
                         <div class="card mb-2 caja">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                    <img src="img/slider-1.jpg" alt="img" class="img-fluid" />
                                 </div>
                                 <div class="col-8">
-                                    <p>____________________________</p>
-                                    <p>___________________________________________________________</p>
-                                    <p>___________________________________________________________</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sint dolor
+                                        corrupti numquam quis eos praesentium repudiandae sunt illum eligendi optio
+                                        nobis officia, autem natus nisi! Inventore quos rem quas neque, sunt sint.
+                                        Aliquam, ipsum similique. Incidunt, error. Quidem eos officiis optio, molestiae
+                                        fugiat reiciendis suscipit eius accusamus commodi praesentium deleniti sint,
+                                        dolore obcaecati possimus dicta! Nisi, cumque atque? Facere sapiente, tenetur
+                                        inventore vitae quam reprehenderit quisquam distinctio consequuntur ipsam, quis
+                                        molestias dolor corporis voluptates quibusdam dolores voluptate et, </p>
                                 </div>
                             </div>
                         </div>
                         <div class="card mb-2 caja">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                    <img src="img/slider-1.jpg" alt="img" class="img-fluid" />
                                 </div>
                                 <div class="col-8">
-                                    <p>____________________________</p>
-                                    <p>___________________________________________________________</p>
-                                    <p>___________________________________________________________</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sint dolor
+                                        corrupti numquam quis eos praesentium repudiandae sunt illum eligendi optio
+                                        nobis officia, autem natus nisi! Inventore quos rem quas neque, sunt sint.
+                                        Aliquam, ipsum similique. Incidunt, error. Quidem eos officiis optio, molestiae
+                                        fugiat reiciendis suscipit eius accusamus commodi praesentium deleniti sint,
+                                        dolore obcaecati possimus dicta! Nisi, cumque atque? Facere sapiente, tenetur
+                                        inventore vitae quam reprehenderit quisquam distinctio consequuntur ipsam, quis
+                                        molestias dolor corporis voluptates quibusdam dolores voluptate et, </p>
                                 </div>
                             </div>
                         </div>
                         <div class="card mb-2 caja">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                    <img src="img/slider-1.jpg" alt="img" class="img-fluid" />
                                 </div>
                                 <div class="col-8">
-                                    <p>____________________________</p>
-                                    <p>___________________________________________________________</p>
-                                    <p>___________________________________________________________</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sint dolor
+                                        corrupti numquam quis eos praesentium repudiandae sunt illum eligendi optio
+                                        nobis officia, autem natus nisi! Inventore quos rem quas neque, sunt sint.
+                                        Aliquam, ipsum similique. Incidunt, error. Quidem eos officiis optio, molestiae
+                                        fugiat reiciendis suscipit eius accusamus commodi praesentium deleniti sint,
+                                        dolore obcaecati possimus dicta! Nisi, cumque atque? Facere sapiente, tenetur
+                                        inventore vitae quam reprehenderit quisquam distinctio consequuntur ipsam, quis
+                                        molestias dolor corporis voluptates quibusdam dolores voluptate et, </p>
                                 </div>
                             </div>
                         </div>
                         <div class="card mb-2 caja">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                    <img src="img/slider-1.jpg" alt="img" class="img-fluid" />
                                 </div>
                                 <div class="col-8">
-                                    <p>____________________________</p>
-                                    <p>___________________________________________________________</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sint dolor
+                                        corrupti numquam quis eos praesentium repudiandae sunt illum eligendi optio
+                                        nobis officia, autem natus nisi! Inventore quos rem quas neque, sunt sint.
+                                        Aliquam, ipsum similique. Incidunt, error. Quidem eos officiis optio, molestiae
+                                        fugiat reiciendis suscipit eius accusamus commodi praesentium deleniti sint,
+                                        dolore obcaecati possimus dicta! Nisi, cumque atque? Facere sapiente, tenetur
+                                        inventore vitae quam reprehenderit quisquam distinctio consequuntur ipsam, quis
+                                        molestias dolor corporis voluptates quibusdam dolores voluptate et, </p>
                                 </div>
                             </div>
                         </div>
                         <div class="card mb-2 caja">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                    <img src="img/slider-1.jpg" alt="img" class="img-fluid" />
                                 </div>
                                 <div class="col-8">
-                                    <p>____________________________</p>
-                                    <p>___________________________________________________________</p>
-                                    <p>___________________________________________________________</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sint dolor
+                                        corrupti numquam quis eos praesentium repudiandae sunt illum eligendi optio
+                                        nobis officia, autem natus nisi! Inventore quos rem quas neque, sunt sint.
+                                        Aliquam, ipsum similique. Incidunt, error. Quidem eos officiis optio, molestiae
+                                        fugiat reiciendis suscipit eius accusamus commodi praesentium deleniti sint,
+                                        dolore obcaecati possimus dicta! Nisi, cumque atque? Facere sapiente, tenetur
+                                        inventore vitae quam reprehenderit quisquam distinctio consequuntur ipsam, quis
+                                        molestias dolor corporis voluptates quibusdam dolores voluptate et, </p>
                                 </div>
                             </div>
                         </div>
                         <div class="card mb-2 caja">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                    <img src="img/slider-1.jpg" alt="img" class="img-fluid" />
                                 </div>
                                 <div class="col-8">
-                                    <p>____________________________</p>
-                                    <p>___________________________________________________________</p>
-                                    <p>___________________________________________________________</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sint dolor
+                                        corrupti numquam quis eos praesentium repudiandae sunt illum eligendi optio
+                                        nobis officia, autem natus nisi! Inventore quos rem quas neque, sunt sint.
+                                        Aliquam, ipsum similique. Incidunt, error. Quidem eos officiis optio, molestiae
+                                        fugiat reiciendis suscipit eius accusamus commodi praesentium deleniti sint,
+                                        dolore obcaecati possimus dicta! Nisi, cumque atque? Facere sapiente, tenetur
+                                        inventore vitae quam reprehenderit quisquam distinctio consequuntur ipsam, quis
+                                        molestias dolor corporis voluptates quibusdam dolores voluptate et, </p>
                                 </div>
                             </div>
                         </div>
                         <div class="card mb-2 caja">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                    <img src="img/slider-1.jpg" alt="img" class="img-fluid" />
                                 </div>
                                 <div class="col-8">
-                                    <p>____________________________</p>
-                                    <p>___________________________________________________________</p>
-                                    <p>___________________________________________________________</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sint dolor
+                                        corrupti numquam quis eos praesentium repudiandae sunt illum eligendi optio
+                                        nobis officia, autem natus nisi! Inventore quos rem quas neque, sunt sint.
+                                        Aliquam, ipsum similique. Incidunt, error. Quidem eos officiis optio, molestiae
+                                        fugiat reiciendis suscipit eius accusamus commodi praesentium deleniti sint,
+                                        dolore obcaecati possimus dicta! Nisi, cumque atque? Facere sapiente, tenetur
+                                        inventore vitae quam reprehenderit quisquam distinctio consequuntur ipsam, quis
+                                        molestias dolor corporis voluptates quibusdam dolores voluptate et, </p>
                                 </div>
                             </div>
                         </div>
                         <div class="card mb-2 caja">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                    <img src="img/slider-1.jpg" alt="img" class="img-fluid" />
                                 </div>
                                 <div class="col-8">
-                                    <p>____________________________</p>
-                                    <p>___________________________________________________________</p>
-                                    <p>___________________________________________________________</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sint dolor
+                                        corrupti numquam quis eos praesentium repudiandae sunt illum eligendi optio
+                                        nobis officia, autem natus nisi! Inventore quos rem quas neque, sunt sint.
+                                        Aliquam, ipsum similique. Incidunt, error. Quidem eos officiis optio, molestiae
+                                        fugiat reiciendis suscipit eius accusamus commodi praesentium deleniti sint,
+                                        dolore obcaecati possimus dicta! Nisi, cumque atque? Facere sapiente, tenetur
+                                        inventore vitae quam reprehenderit quisquam distinctio consequuntur ipsam, quis
+                                        molestias dolor corporis voluptates quibusdam dolores voluptate et, </p>
                                 </div>
                             </div>
                         </div>
                         <div class="card mb-2 caja ">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="img/img.jpg" alt="img" class="img-fluid" />
+                                    <img src="img/slider-1.jpg" alt="img" class="img-fluid" />
                                 </div>
                                 <div class="col-8">
-                                    <p>____________________________</p>
-                                    <p>___________________________________________________________</p>
-                                    <p>___________________________________________________________</p>
-
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sint dolor
+                                        corrupti numquam quis eos praesentium repudiandae sunt illum eligendi optio
+                                        nobis officia, autem natus nisi! Inventore quos rem quas neque, sunt sint.
+                                        Aliquam, ipsum similique. Incidunt, error. Quidem eos officiis optio, molestiae
+                                        fugiat reiciendis suscipit eius accusamus commodi praesentium deleniti sint,
+                                        dolore obcaecati possimus dicta! Nisi, cumque atque? Facere sapiente, tenetur
+                                        inventore vitae quam reprehenderit quisquam distinctio consequuntur ipsam, quis
+                                        molestias dolor corporis voluptates quibusdam dolores voluptate et, </p>
                                 </div>
                             </div>
                         </div>
@@ -276,7 +334,7 @@
                                                         viewBox="0 0 16 16">
                                                         <path fill-rule="evenodd"
                                                             d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
-                                                    </svg> ////////</a>
+                                                    </svg> Anterior</a>
                                             </li>
                                             <li class="page-item contornos"><a class="page-link texto" href="#">1</a>
                                             </li>
@@ -290,7 +348,7 @@
                                             <li class="page-item contornos"><a class="page-link texto" href="#">-</a>
                                             </li>
                                             <li class="page-item contornos">
-                                                <a class="page-link texto" href="#">///////// <svg
+                                                <a class="page-link texto" href="#">Siguiente <svg
                                                         xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                         fill="currentColor" class="bi bi-chevron-right"
                                                         viewBox="0 0 16 16">
@@ -303,8 +361,11 @@
                                     </nav>
                                 </div>
                             </div>
-                            <div class="col-12 text-center mb-1 mt-2">
-                                ///////////////////////
+
+                            <!--TODOS LSO DERECHOS RESERVADOS-->
+                            <div class="col-12 text-center mt-2">
+                                <p class="navbar-text pull-right text-muted">&copy; 2021 Todos los derechos reservados
+                                </p>
                             </div>
                         </div>
                     </div>
